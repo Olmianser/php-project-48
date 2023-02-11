@@ -1,0 +1,22 @@
+{
+    "name": "hexlet/code",
+    "description": "project hexlet 2",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olga Zayarnaya",
+            "email": "olmianser@yandex.ru"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "bin": [
+        "bin/getdiff"
+    ]
+}
