@@ -1,16 +1,16 @@
 {
     "name": "hexlet/code",
     "description": "project hexlet 2",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Olga Zayarnaya",
             "email": "olmianser@yandex.ru"
         }
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
     ],
     "license": "MIT",
     "require": {
@@ -18,5 +18,10 @@
     },
     "bin": [
         "bin/getdiff"
-    ]
+    ],
+    "autoload": {
+        "files": [
+            "src/differ.php"
+        ]
+    }
 }
